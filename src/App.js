@@ -1,23 +1,30 @@
 import logo from './logo.svg';
+import aloeVera from './img/aloeVera.jpg';
+import bonsai from './img/bonsai.jpg';
+import fraisier from './img/fraisier.jpg';
+import framboisier from './img/framboisier.jpg';
+import groseillier from './img/groseillier.jpg';
+import monstera from './img/monstera.jpg';
+import myrtillier from './img/myrtillier.jpg';
+import orhideeBlancRose from './img/orchideeBlancRose.jpg';
+import spathiphylleWallis from './img/spathiphylleWallis.jpg';
+import './ArticlesList';
 import './App.css';
+import ArticlesList from './ArticlesList';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>La maison jungle</h1>
       </header>
+      <main>
+      <ArticlesList/>
+      </main>
+      <footer>
+
+      </footer>
     </div>
   );
 }
